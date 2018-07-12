@@ -1,0 +1,8 @@
+# TangoDemo
+
+* Display RGB and depth image;
+* Measuring center depth values;
+* Get the depth values statistical information;
+* Mirror the RGB and depth image;
+* Capture one frame depth data information;
+* Capture 100 frames center region depth data information;

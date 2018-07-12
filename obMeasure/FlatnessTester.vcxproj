@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BE940D14-825C-49A5-92D2-59EEC3580F2C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>FlatnessTester</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zlh\Documents\GitLab\obmeasure\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">build\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FlatnessTester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zlh\Documents\GitLab\obmeasure\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">build\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FlatnessTester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zlh\Documents\GitLocal\mrpt\ransac-demo-plane3D\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ransac-demo-plane3D.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ransac-demo-plane3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zlh\Documents\GitLocal\mrpt\ransac-demo-plane3D\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ransac-demo-plane3D.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ransac-demo-plane3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;C:\Program Files (x86)\OpenNI2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenNI2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/mrpt-1.4.0/lib;C:/Program Files (x86)/mrpt-1.4.0/lib/$(Configuration);C:\Program Files (x86)\OpenNI2\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/Debug/ransac-demo-plane3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/Debug/ransac-demo-plane3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;C:\Program Files (x86)\OpenNI2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenNI2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/mrpt-1.4.0/lib;C:/Program Files (x86)/mrpt-1.4.0/lib/$(Configuration);C:\Program Files (x86)\OpenNI2\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/Release/ransac-demo-plane3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/Release/ransac-demo-plane3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/mrpt-1.4.0/lib;C:/Program Files (x86)/mrpt-1.4.0/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/MinSizeRel/ransac-demo-plane3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/MinSizeRel/ransac-demo-plane3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\mrpt-1.4.0\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.4.0\libs\bayes\include;C:\Program Files (x86)\mrpt-1.4.0\libs\graphs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\vision\include;C:\Program Files (x86)\mrpt-1.4.0\libs\tfest\include;C:\Program Files (x86)\mrpt-1.4.0\libs\maps\include;C:\Program Files (x86)\mrpt-1.4.0\libs\obs\include;C:\Program Files (x86)\mrpt-1.4.0\libs\opengl\include;C:\Program Files (x86)\mrpt-1.4.0\libs\base\include;C:\Program Files (x86)\mrpt-1.4.0\libs\slam\include;C:\Program Files (x86)\mrpt-1.4.0\libs\gui\include;C:\Program Files (x86)\mrpt-1.4.0\libs\topography\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/mrpt-1.4.0/lib;C:/Program Files (x86)/mrpt-1.4.0/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/RelWithDebInfo/ransac-demo-plane3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/RelWithDebInfo/ransac-demo-plane3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/zlh/Documents/GitLocal/mrpt/ransac-demo-plane3D/build/ZERO_CHECK.vcxproj">
+      <Project>4AE10047-1B4E-4D92-B0C9-CC1A48D98FED</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Display.cpp" />
+    <ClCompile Include="src\Point.cpp" />
+    <ClCompile Include="src\PointCloud.cpp" />
+    <ClCompile Include="src\Sensor.cpp" />
+    <ClCompile Include="src\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Display.h" />
+    <ClInclude Include="src\Plane.h" />
+    <ClInclude Include="src\Point3D.h" />
+    <ClInclude Include="src\PointCloud.h" />
+    <ClInclude Include="src\Sensor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

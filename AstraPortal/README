@@ -1,0 +1,43 @@
+windows visual studio
+version : vs2013
+link : http://download.microsoft.com/download/0/7/5/0755898A-ED1B-4E11-BC04-6B9B7D82B1E4/VS2013_RTM_ULT_CHS.iso
+
+windows qt version
+file : qt-opensource-windows-x86-msvc2013_64-5.8.0.exe
+link : https://download.qt.io/official_releases/qt/5.8/5.8.0/qt-opensource-windows-x86-msvc2013_64-5.8.0.exe
+
+windows openni version
+file : OpenNI-Windows-x64-2.3.zip
+
+linux qt version
+file : qt-opensource-linux-x64-5.8.0.run
+link : https://download.qt.io/official_releases/qt/5.8/5.8.0/qt-opensource-linux-x64-android-5.8.0.run
+
+linux openni version
+file : OpenNI-Linux-x64-2.3.zip
+
+camera params file name must be camera_params_[serial number].ini
+eg. camera_params_17050311041.ini/camera_params_1702033232.ini
+
+camera params format : 
+
+[IR Camera Intrinsic]
+580.006       0 318.585
+      0 578.453 253.907
+      0       0       1
+[RGB Camera Intrinsic]
+580.623       0 328.832
+      0 578.859 249.406
+      0       0       1
+[IR to RGB Camera Rotation Matrix]
+ 0.9996985 -0.0243796 0.0029302
+ 0.0243607  0.9996832 0.0063225
+-0.0030835 -0.0062490 0.9999757
+[IR to RGB Camera Translattion Vector]
+7.4051 402.621 -0.5675
+[IR to External Camera Rotation Matrix]
+ 0.9996985 -0.0243796 0.0029302
+ 0.0243607  0.9996832 0.0063225
+-0.0030835 -0.0062490 0.9999757
+[IR to External Camera Translattion Vector]
+7.4051 402.621 -0.5675
